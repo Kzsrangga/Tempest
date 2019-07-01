@@ -8,25 +8,7 @@
   <script src="app.js"></script>
   <script src="phone-list.component.js"></script>
  <script>
-  function onSubmit(token) {
-    alert('thanks ' + document.getElementById('field').value);
-  }
-
-  function validate(event) {
-    event.preventDefault();
-    if (!document.getElementById('field').value) {
-      alert("You must add text to the required field");
-    } else {
-      grecaptcha.execute();
-    }
-  }
-
-  function onload() {
-    var element = document.getElementById('submit');
-    element.onclick = validate;
-  }
-</script>
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
 </head>
 
 <body background="img/background.png">
@@ -74,16 +56,7 @@
 		</div>
 		</center>
 		<a class="btn btn-primary tul" href="https://drive.google.com/a/students.amikom.ac.id/uc?export=download&confirm=zOv5&id=1leukwVfDH07n3ejbvk-VOAzza1gCmXZ2" style="background-color: #4d5468; left:45%" role="button">Download</a>
-		 <form>
-     Name: (required) <input id="field" name="field">
-     <div id='recaptcha' class="g-recaptcha"
-          data-sitekey="6LdghasUAAAAAHHwgwVmZ2DkaWpG-_KonfuFdmhE"
-          data-callback="onSubmit"
-          data-size="invisible"></div>
-     <button id='submit'>submit</button>
-   </form>
-<script>onload();</script>
-
+		 
 	</div></center>
 
 <div id="disqus_thread"></div>
