@@ -4,7 +4,19 @@
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	 <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="utama.css">
-  
+  <script type="text/javascript">
+      
+        var onSubmit = function(6LdghasUAAAAAC769rKkv1jkTpSATZVEnrNUDW0R) {
+          console.log('success!');
+        };
+
+        var onloadCallback = function() {
+          grecaptcha.render('submit', {
+            'sitekey' : '6LdghasUAAAAAC769rKkv1jkTpSATZVEnrNUDW0R',
+            'callback' : onSubmit
+          });
+        };
+    </script>
   <script type="text/javascript" src="assets/js/angular/angular.min.js"></script>
   <script src="app.js"></script>
   <script src="phone-list.component.js"></script>
