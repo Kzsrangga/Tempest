@@ -7,6 +7,19 @@
   <script type="text/javascript" src="assets/js/angular/angular.min.js"></script>
   <script src="app.js"></script>
   <script src="phone-list.component.js"></script>
+  <script type="text/javascript">
+      
+        var onSubmit = function(6LdghasUAAAAAC769rKkv1jkTpSATZVEnrNUDW0R) {
+          console.log('success!');
+        };
+
+        var onloadCallback = function() {
+          grecaptcha.render('submit', {
+            'sitekey' : '6LdghasUAAAAAHHwgwVmZ2DkaWpG-_KonfuFdmhE',
+            'callback' : onSubmit
+          });
+        };
+    </script>
 </head>
 
 <body background="img/background.png">
@@ -54,7 +67,12 @@
 		</div>
 		</center>
 		<a class="btn btn-primary tul" href="https://drive.google.com/a/students.amikom.ac.id/uc?export=download&confirm=zOv5&id=1leukwVfDH07n3ejbvk-VOAzza1gCmXZ2" style="background-color: #4d5468; left:45%" role="button">Download</a>
-
+<form action="?" method="POST">
+      <input id='submit' type="submit" value="Submit">
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
 
 
 	</div></center>
