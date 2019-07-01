@@ -1,0 +1,109 @@
+.box{
+			height: 100%;
+			width: 80%;
+			background-color: #000;
+			text-align: left;
+			padding-bottom: 5px;
+		}
+		.header{
+			height: 150px;
+			width: 100%;
+			background-color: #4d5468;
+			display: flex;
+			flex-direction: column;
+		}
+	
+		.coba{
+			display: flex;
+			justify-content: center;
+
+
+		}
+		.he1{
+			color: white;
+			margin: 25px;
+			font-family: sans-serif;
+			height: 10px;
+			background-color: #4d5468;
+			
+
+			
+
+		}
+
+	
+	
+		.search {
+    		padding:8px 15px;
+   			height: 30px;
+			width: 90%;
+			background-color: #e7e7e8;
+			border-radius: 10px;
+			margin-left: 20px;
+		}
+		h4{
+			color: white;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+		h2{
+			color: white;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+		hr{
+			width: 100px;
+			margin-left: 10px;
+			font-size: 5px;
+			background-color:  #4d5468;
+
+			
+		}
+		.ktak{
+			display: flex;
+			justify-content: space-around;
+			height: 100%;
+		}
+		.kotak{
+			width: 200px;
+			height: 150px;
+			background-color: white;
+			margin: 10px;
+		}
+		a{
+			margin: 2px;
+		}
+		.cimg{
+			margin-top: 10px;margin-left: 10px;
+		}
+		.judul{
+			position: relative;
+			left: 170px;
+			top: -180px;
+			color: white;
+		}
+		.sinop{
+			color: white;
+			width: 70%;
+		}
+		.box2{
+			width: 95%;
+			background-color: #F5F5DC;
+			height: 200px;
+			padding-left: 5px;
+			position: relative;
+			top: -150px;
+			left: 15px;
+
+		}
+		.komik{
+			display: flex;
+			flex-direction: column;
+		justify-content: center;
+		position: relative;
+		}
+		.tul{
+			color: white;
+			position: relative;
+			font-family: 
+		}
