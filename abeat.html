@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="phonecatApp">
 <head>
-	<script type="text/javascript">
-      var onloadCallback = function() {
-        grecaptcha.render('https://docs.google.com/uc?export=download&confirm=J023&id=1NtZZu5TEqGJ5m_Xp_Z4ESZLTo1FIPeAw', {
-          'sitekey' : '6LdghasUAAAAAC769rKkv1jkTpSATZVEnrNUDW0R'
-        });
-      };
-    </script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	 <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="utama.css">
   
@@ -40,16 +34,15 @@
   
 </div>
 		<div class="tul" style="left: 40%">
-			 <form action="https://docs.google.com/uc?export=download&confirm=J023&id=1NtZZu5TEqGJ5m_Xp_Z4ESZLTo1FIPeAw" method="GET">
-      <div id="https://docs.google.com/uc?export=download&confirm=J023&id=1NtZZu5TEqGJ5m_Xp_Z4ESZLTo1FIPeAw"></div>
-      <br>
-      <input type="submit" value="Submit">
-    </form>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-        async defer>
-    </script>
 			
-			  <a class="btn btn-primary tul" href="https://docs.google.com/uc?export=download&confirm=J023&id=1NtZZu5TEqGJ5m_Xp_Z4ESZLTo1FIPeAw" style="background-color: #4d5468;" role="button">Download Batch</a>
+			
+			  <a class="btn btn-primary tul" href="https://docs.google.com/uc?export=download&confirm=J023&id=1NtZZu5TEqGJ5m_Xp_Z4ESZLTo1FIPeAw" style="background-color: #4d5468;" role="button">
+				  <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+      <br/>
+      <input type="submit" value="Download Batch">
+    </form>
+				  </a>
 		</div>
 				
 			
